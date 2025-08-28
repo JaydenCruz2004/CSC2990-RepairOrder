@@ -28,4 +28,4 @@ The Repair Order app introduces the basics of Android app development. Students 
 ### Setup
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/CSC2990-RepairOrder.git
+   git clone https://github.com/JaydenCruz2004/CSC2990-RepairOrder.git
