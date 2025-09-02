@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">RepairOrder</string>
+    <string name="app_name_header">Repair Order</string>
+
+    <string name='name_label'>Name</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="tax">Tax</string>
+    <string name="subtotalSum">$ 0.0</string>
+    <string name="totalSum">$ 0.0</string>
+    <string name="taxSum">$ 0.0</string>
+    <string name="submitButton">Submit</string>
+    <string name="textViewTotal">Total</string>
+    <string name="text7">Name</string>
+
 </resources>
