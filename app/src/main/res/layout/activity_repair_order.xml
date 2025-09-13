@@ -38,10 +38,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="17dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="2dp"
         android:text="@string/subtotalSum"
         app:layout_constraintEnd_toStartOf="@+id/textViewTax2"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/textViewSubtotal3"
         app:layout_constraintTop_toBottomOf="@+id/editTextLabor" />
 
@@ -88,7 +89,7 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Fill out details below"
+        android:text="@string/fill_out_details_below"
         android:textSize="14sp"
         app:layout_constraintTop_toBottomOf="@id/textView"
         app:layout_constraintStart_toStartOf="parent"
@@ -104,7 +105,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
         android:layout_marginTop="28dp"
-        android:text="Order Type"
+        android:text="@string/order_type"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textView4" />
@@ -127,7 +128,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="24dp"
-        android:text="Technician"
+        android:text="@string/technician"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textViewOrderType" />
@@ -147,7 +148,7 @@
         android:id="@+id/textViewInspection"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Inspection"
+        android:text="@string/inspection"
         android:textSize="15sp"
         app:layout_constraintTop_toBottomOf="@id/textViewTechnician"
         app:layout_constraintStart_toStartOf="parent"
@@ -169,7 +170,7 @@
         android:id="@+id/textViewPaints"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Paints"
+        android:text="@string/paints"
         android:textSize="15sp"
         app:layout_constraintTop_toBottomOf="@id/textViewInspection"
         app:layout_constraintStart_toStartOf="parent"
@@ -219,7 +220,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
         android:layout_marginTop="36dp"
-        android:text="Labor"
+        android:text="@string/labor"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textViewParts" />
@@ -261,6 +262,15 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextLabor" />
+
+    <Spinner
+        android:id="@+id/spinnerOrderType"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="29dp"
+        app:layout_constraintStart_toEndOf="@+id/textViewOrderType"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
